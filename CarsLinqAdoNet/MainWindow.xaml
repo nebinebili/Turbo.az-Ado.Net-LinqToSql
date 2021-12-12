@@ -1,0 +1,328 @@
+﻿<Window x:Class="CarsLinqAdoNet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarsLinqAdoNet"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowStartupLocation="CenterScreen" Height="550" Width="1000">
+    <Grid>
+        <Label
+            Height="30"
+            Width="150"
+            FontSize="18"
+            Content="Brand"
+            Margin="0,0,750,460">
+
+        </Label>
+        <ComboBox 
+            Height="30"
+            Width="240"
+            Margin="0,0,270,450"
+            Name="cmb_brand"
+            FontSize="18" SelectionChanged="cmb_brand_SelectionChanged">
+
+        </ComboBox>
+        <Label
+            Height="30"
+            Width="150"
+            FontSize="18"
+            Content="Model"
+            Margin="0,0,750,320">
+
+        </Label>
+        <ComboBox 
+            Height="30"
+            Width="240"
+            Margin="0,0,270,310"
+            x:Name="cmb_model"
+            FontSize="18"/>
+        <Label
+            Height="35"
+            Width="150"
+            FontSize="18"
+            Content="Ban Type"
+            Margin="0,0,750,180">
+
+        </Label>
+        <ComboBox 
+            Height="30"
+            Width="240"
+            Margin="0,0,270,170"
+            x:Name="cmb_typeban"
+            FontSize="18"/>
+        <Label
+            Height="35"
+            Width="150"
+            FontSize="18"
+            Content="Colour"
+            Margin="0,0,750,40">
+
+        </Label>
+        <ComboBox 
+            Height="30"
+            Width="240"
+            Margin="0,0,270,30"
+            x:Name="cmb_color"
+            FontSize="18" />
+        <Label
+            Height="35"
+            Width="150"
+            FontSize="18"
+            Content="Mileage"
+            Margin="0,0,750,-100">
+
+        </Label>
+
+        <Label
+            Height="35"
+            Width="43"
+            FontSize="18"
+            Content="min."
+            Margin="0,0,470,-100">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="70"
+            FontSize="18"
+            Name="txb_minMileage"
+            Margin="0,0,340,-90">
+
+        </TextBox>
+
+        <Label
+            Height="35"
+            Width="45"
+            FontSize="18"
+            Content="max."
+            Margin="0,0,220,-100">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="70"
+            FontSize="18"
+            Name="txb_maxMileage"
+            Margin="0,0,100,-90">
+
+        </TextBox>
+
+        <Label
+            Height="35"
+            Width="150"
+            FontSize="18"
+            Content="Price"
+            Margin="0,0,750,-240">
+
+        </Label>
+
+        <Label
+            Height="35"
+            Width="43"
+            FontSize="18"
+            Content="min."
+            Margin="0,0,470,-240">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="70"
+            FontSize="18"
+            Name="txb_minPrice"
+            Margin="0,0,340,-230">
+
+        </TextBox>
+
+        <Label
+            Height="35"
+            Width="45"
+            FontSize="18"
+            Content="max."
+            Margin="0,0,220,-240">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="70"
+            FontSize="18"
+            Name="txb_maxPrice"
+            Margin="0,0,100,-230">
+
+        </TextBox>
+
+        <Label
+            Height="35"
+            Width="150"
+            FontSize="18"
+            Content="Country"
+            Margin="250,0,0,460">
+
+        </Label>
+        <ComboBox 
+            Height="30"
+            Width="240"
+            Margin="730,0,0,450"
+            x:Name="cmb_country"
+            FontSize="18"/>
+        <Label
+            Height="35"
+            Width="150"
+            FontSize="18"
+            Content="Fuel Type"
+            Margin="250,0,0,320">
+
+        </Label>
+
+        <ComboBox 
+            Height="30"
+            Width="240"
+            Margin="730,0,0,310"
+            x:Name="cmb_typefuel"
+            FontSize="18"/>
+
+        <Label
+            Height="35"
+            Width="150"
+            FontSize="18"
+            Content="Gears"
+            Margin="250,0,0,180">
+
+        </Label>
+
+        <ComboBox 
+            Height="30"
+            Width="240"
+            Margin="730,0,0,170"
+            x:Name="cmb_gears"
+            FontSize="18"/>
+
+        <Label
+            Height="35"
+            Width="150"
+            FontSize="18"
+            Content="Transmission"
+            Margin="250,0,0,40">
+
+        </Label>
+
+        <ComboBox 
+            Height="30"
+            Width="240"
+            Margin="730,0,0,30"
+            x:Name="cmb_transmission"
+            FontSize="18"/>
+
+        <Label
+            Height="35"
+            Width="150"
+            FontSize="18"
+            Content="Registiration Year"
+            Margin="250,0,0,-100">
+
+        </Label>
+
+        <Label
+            Height="35"
+            Width="45"
+            FontSize="18"
+            Content="min."
+            Margin="520,0,0,-100">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="70"
+            FontSize="18"
+            Name="txb_minYear"
+            Margin="630,0,0,-90">
+
+        </TextBox>
+
+        <Label
+            Height="35"
+            Width="45"
+            FontSize="18"
+            Content="max."
+            Margin="750,0,0,-100">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="70"
+            FontSize="18"
+            Name="txb_maxYear"
+            Margin="870,0,0,-90">
+
+        </TextBox>
+
+        <Label
+            Height="35"
+            Width="150"
+            FontSize="18"
+            Content="Engine Volume"
+            Margin="250,0,0,-240">
+
+        </Label>
+
+        <Label
+            Height="35"
+            Width="45"
+            FontSize="18"
+            Content="min."
+            Margin="520,0,0,-240">
+
+        </Label>
+
+        <ComboBox
+            Height="30"
+            Width="70"
+            FontSize="18"
+            Name="cmb_minvolume"
+            Margin="630,0,0,-230">
+
+        </ComboBox>
+
+        <Label
+            Height="35"
+            Width="45"
+            FontSize="18"
+            Content="max."
+            Margin="750,0,0,-240">
+
+        </Label>
+
+        <ComboBox
+            Height="30"
+            Width="70"
+            FontSize="18"
+            Name="cmb_maxvolume"
+            Margin="870,0,0,-230">
+
+        </ComboBox>
+
+        <Button
+            Height="40"
+            Width="150"
+            Content="Search"
+            FontSize="25"
+            Margin="0,400,0,0"
+            Name="btn_search" Click="btn_search_Click">
+
+        </Button>
+        <Button
+            Content="Refresh"
+            FontSize="25"
+            Height="35"
+            Width="90"
+            Margin="0,400,800,0"
+            x:Name="btn_Refresh" Click="btn_Refresh_Click" />
+
+    </Grid>
+</Window>

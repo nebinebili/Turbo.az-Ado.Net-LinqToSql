@@ -1,0 +1,17 @@
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\bin\Debug\CarsLinqAdoNet.exe.config
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\bin\Debug\CarsLinqAdoNet.exe
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\bin\Debug\CarsLinqAdoNet.pdb
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\obj\Debug\CarsLinqAdoNet.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\obj\Debug\CarsLinqAdoNet_MarkupCompile.cache
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\obj\Debug\CarsLinqAdoNet_MarkupCompile.lref
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\obj\Debug\MainWindow.baml
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\obj\Debug\CarsLinqAdoNet.g.resources
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\obj\Debug\CarsLinqAdoNet.Properties.Resources.resources
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\obj\Debug\CarsLinqAdoNet.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\obj\Debug\CarsLinqAdoNet.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\obj\Debug\CarsLinqAdoNet.exe
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\obj\Debug\CarsLinqAdoNet.pdb
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\obj\Debug\SearchResult.g.cs
+C:\Users\Admin\source\repos\CarsLinqAdoNet\CarsLinqAdoNet\obj\Debug\SearchResult.baml
